@@ -1,0 +1,12 @@
+<view class='login'>
+    <view class='title'>
+        <text>大难逃生</text>
+    </view>
+    <view class='intro'>
+        <text>当灾难发生时，我们应该如何正确的处理才能顺利的活下来呢?</text>
+    </view>
+    <view>
+        <button bindtap="start" class="btn">开始</button>
+        <button class="btn">继续</button>
+    </view>
+</view>

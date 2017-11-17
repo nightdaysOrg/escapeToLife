@@ -1,0 +1,36 @@
+<view class="status">
+    <view class="item">
+        <text class="name">姓名</text>
+        <text class="value">张三</text>
+    </view>
+    <view class="item">
+        <text class="name">健康</text>
+        <text class="value">面黄肌瘦</text>
+    </view>
+    <view class="item">
+        <text class="name">精神</text>
+        <text class="value">严重失眠，随时处于崩溃得边缘</text>
+    </view>
+    <view class="item">
+        <text class="name">饱食度</text>
+        <text class="value">饿到爆</text>
+    </view>
+    <view class="item">
+        <text class="name">口渴度</text>
+        <text class="value">严重缺水</text>
+    </view>
+    <view class="item">
+        <text class="name">小手</text>
+        <text class="value">不想上</text>
+    </view>
+
+    <view class="item">
+        <text class="name">大手</text>
+        <text class="value">不想上</text>
+    </view>
+
+    <view class="item">
+        <text class="name">性欲</text>
+        <text class="value">完全没有欲望</text>
+    </view>
+</view>

@@ -1,0 +1,77 @@
+/* 位置样式 */
+.position{
+  background: rgb(156, 145, 145);
+}
+.row{
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row.border{
+  margin: 1px 0;
+}
+
+.block{
+  position: relative;
+  display: inline-block;
+  width: 33%;
+  height: 60px;
+  background: rgb(214,214,214);
+}
+
+.position image {
+  position: absolute;
+  width: 24px;
+  height: 30px;
+  margin: auto;
+  top:0;right:0;bottom:0;left:0;
+}
+
+.right{
+transform: rotate(90deg);
+}
+.left{
+  transform: rotate(-90deg);
+}
+.bottom{
+  transform: rotate(180deg);
+}
+
+
+
+/*发生事情 样式*/
+.happen-info{
+  margin-top: 5px;
+  border: 1px solid rgb(156, 145, 145);
+  font-size: 12px;
+  text-indent: 24px;
+  padding:10px;
+}
+
+/*动作区域*/
+.activity {
+  margin-top: 5px;
+  border: 1px solid rgb(156, 145, 145);
+  padding:10px;
+}
+
+.activity .btn {
+  font-size: 12px;
+}
+
+/*菜单*/
+.menu {
+  position: fixed;
+  bottom:0;
+  border: 1px solid rgb(156, 145, 145);
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+

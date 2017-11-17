@@ -1,0 +1,6 @@
+<view class="backstoryIntro">
+    <view class="content"><view class="content-text">{{story}}</view></view>
+    <view>
+        <button bindtap="goOn" class="btn">继续</button>
+    </view>
+</view>

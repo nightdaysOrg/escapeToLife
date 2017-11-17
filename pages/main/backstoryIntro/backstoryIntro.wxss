@@ -1,0 +1,21 @@
+.backstoryIntro {
+  position: fixed;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.btn {
+  width: 100px;
+  margin-top: 40px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content-text {
+  display: inline-block;
+  text-align: left;
+  text-indent: 20px;
+}

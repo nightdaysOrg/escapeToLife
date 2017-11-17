@@ -1,0 +1,47 @@
+<view>
+    <view class="position">
+        <view class="row">
+            <view class="block"></view>
+            <view class="block">
+                <image src="../../../images/arrow.png" />
+            </view>
+            <view class="block"></view>
+        </view>
+        <view class="row border">
+            <view class="block">
+                <image class="left" src="../../../images/arrow.png" />
+            </view>
+            <view class="block"></view>
+            <view class="block">
+                <image class="right" src="../../../images/arrow.png" />
+            </view>
+        </view>
+        <view class="row">
+            <view class="block"></view>
+            <view class="block">
+                <image class="bottom" src="../../../images/arrow.png" />
+            </view>
+            <view class="block"></view>
+        </view>
+    </view>
+
+    <view class="happen-info">
+        正前方发现一只僵尸，正在发呆....
+    </view>
+
+    <view class="activity">
+        <button class="btn">蹲下身子，悄悄移动，绕过僵尸</button>
+        <button class="btn">快速冲向僵尸,给他狠狠一击</button>
+    </view>
+
+
+    <view class="menu">
+        <text bindtap="gotoStatus">状态</text>
+        <text bindtap="gotoBag">背包</text>
+        <text bindtap="gotoEnv">周围</text>
+        <text bindtap="gotoGame">关于</text>
+    </view>
+
+
+
+</view>
