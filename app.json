@@ -1,26 +1,44 @@
 {
-  "pages": [
-    "pages/main/login/login",
-    "pages/main/backstoryIntro/backstoryIntro",
-    "pages/main/start/start",
-    "pages/main/status/status",
-    "pages/main/bag/bag",
-    "pages/main/env/env",
-    "pages/main/game/game"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-  "test": [
-    "pages/main/login/login",
-    "pages/main/backstoryIntro/backstoryIntro",
-    "pages/main/start/start",
-    "pages/main/status/status",
-    "pages/main/bag/bag",
-    "pages/main/env/env",
-    "pages/main/game/game"
-  ]
+    "pages": [
+        "pages/main/login/login",
+        "pages/main/backstoryIntro/backstoryIntro",
+        "pages/main/start/start",
+        "pages/main/status/status",
+        "pages/main/bag/bag",
+        "pages/main/env/env",
+        "pages/main/game/game"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color":"#000",
+        "selectedColor": "#ddd",
+        "backgroundColor":"#fff",
+        "list": [
+            {
+                "pagePath": "pages/main/login/login",
+                "text": "入口"
+            },
+            {
+                "pagePath": "pages/main/start/start",
+                "text": "开始"
+            },
+            {
+                "pagePath": "pages/main/bag/bag",
+                "text": "背包"
+            },
+            {
+                "pagePath": "pages/main/status/status",
+                "text": "状态"
+            },
+            {
+                "pagePath": "pages/main/env/env",
+                "text": "环境"
+            }
+        ]
+    }
 }
