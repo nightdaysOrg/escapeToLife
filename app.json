@@ -1,7 +1,6 @@
 {
     "pages": [
         "pages/main/login/login",
-        "pages/main/backstoryIntro/backstoryIntro",
         "pages/main/start/start",
         "pages/main/status/status",
         "pages/main/bag/bag",
@@ -11,7 +10,7 @@
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "WeChat",
+        "navigationBarTitleText": "大难逃生",
         "navigationBarTextStyle": "black"
     },
     "tabBar": {
