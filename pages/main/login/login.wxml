@@ -1,12 +1,15 @@
-<view class='login'>
-    <view class='title'>
-      <text>大难逃生</text>
-    </view>
-    <view class='intro'>
-      <text>当灾难发生时，我们应该如何正确的处理才能顺利的活下来呢?</text>
-    </view>
-    <view>
-      <button bindtap="start"  class="btn">开始</button>
-      <button class="btn">继续</button>
-    </view>
+<view class='container'>
+  <view class="title">大难逃生</view>
+  <view class='intro {{go?"intro-2":"none"}}'>当灾难发生时，我们应该如何正确的处理才能顺利的活下来呢?</view>
+  <view class='intro-2 intro story'>
+    <view wx:for="{{story}}" wx:key="index" class="{{index<=showNum?'show':'hide'}}">{{item}}</view>
   </view>
+  <view class="btn-group-1 {{go?'hide':'show'}}" wx:if="{{showNum<1}}">
+    <button bindtap='start'>开始游戏</button>
+    <button>继续游戏</button>
+  </view>
+  <view class='get-name {{showNum>=story.length?"show":"hide"}}'>
+    <input placeholder='请输入你的名字'></input>
+    <button>确定→</button>
+  </view>
+</view>

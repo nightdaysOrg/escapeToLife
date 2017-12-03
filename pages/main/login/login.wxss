@@ -1,22 +1,50 @@
-  .login {
-    position: fixed;
-    top: 30%;
-    transform: translateY(-50%);
-  }
-  
-  .login .title {
-    text-align: center;
-    font-size: 20px;
-  }
-  
-  .login .intro {
-    margin-top: 20px;
-    padding: 0 40px;
-    text-align: center;
-    font-size: 12px;
-  }
-  
-  .btn {
-    width: 100px;
-    margin-top: 20px;
-  }
+.title {
+  text-align: center;
+  font-size: 50rpx;
+  margin-top: 56rpx;
+}
+
+.intro {
+  margin-top: 200rpx;
+  padding: 0 40rpx;
+  text-align: center;
+  font-size: 30rpx;
+  transition: all 0.5s linear;
+}
+
+.intro-2 {
+  margin-top: 48rpx;
+}
+
+.story>view {
+  margin-top: 17rpx;
+  transition: all 0.5s linear;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+.btn-group-1 {
+  width: 100%;
+  position: fixed;
+  bottom: 37rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s linear;
+  z-index: 1;
+}
+.get-name{
+  margin-top:27rpx;
+  text-align: center;
+  transition: all 1s linear;
+}
+
+button {
+  margin-top: 20rpx;
+}
