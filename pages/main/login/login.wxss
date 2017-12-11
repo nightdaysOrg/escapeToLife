@@ -40,7 +40,7 @@
   z-index: 1;
 }
 .get-name{
-  margin-top:27rpx;
+  margin-top:57rpx;
   text-align: center;
   transition: all 1s linear;
 }
